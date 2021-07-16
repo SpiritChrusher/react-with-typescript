@@ -7,7 +7,7 @@ function App() {
   const[number, setNumber] = useState<number>(1);
 
   const changeNumber = () => {
-    setNumber("1");
+    setNumber(this:);
   }
   return (
     <div className="App">
