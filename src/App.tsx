@@ -34,7 +34,7 @@ function App() {
     <div className="App">
       <h1>The Players</h1>
      <List people={people}/>
-     <AddToList/>
+     <AddToList people={people} setPeople={setPeople}/>
     </div>
   );
 }
